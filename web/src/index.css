@@ -605,7 +605,7 @@ code {
     90deg,
     currentColor 0%,
     currentColor 40%,
-    #facc15 50%,
+    #22d3ee 50%,
     currentColor 60%,
     currentColor 100%
   );
@@ -652,8 +652,8 @@ code {
 }
 
 .blur-ball-indigo {
-  background: #6366f1;
-  /* indigo-500 */
+  background: #0ea5e9;
+  /* sky-500 - WhaleHub 青蓝主色 */
   top: 40px;
   left: 50%;
   transform: translateX(-50%);
@@ -661,8 +661,8 @@ code {
 }
 
 .blur-ball-teal {
-  background: #14b8a6;
-  /* teal-400 */
+  background: #06b6d4;
+  /* cyan-500 - WhaleHub 青色辅色 */
   top: 200px;
   left: 30%;
   opacity: 0.4;

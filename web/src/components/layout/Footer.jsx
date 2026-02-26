@@ -63,7 +63,7 @@ const FooterBar = () => {
                 </p>
                 <div className='flex flex-col gap-4'>
                   <a
-                    href='https://docs.newapi.pro/wiki/project-introduction/'
+                    href='https://whalehub.cn'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='!text-semi-color-text-1'
@@ -71,7 +71,7 @@ const FooterBar = () => {
                     {t('关于项目')}
                   </a>
                   <a
-                    href='https://docs.newapi.pro/support/community-interaction/'
+                    href='https://whalehub.cn'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='!text-semi-color-text-1'
@@ -79,7 +79,7 @@ const FooterBar = () => {
                     {t('联系我们')}
                   </a>
                   <a
-                    href='https://docs.newapi.pro/wiki/features-introduction/'
+                    href='https://whalehub.cn'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='!text-semi-color-text-1'
@@ -95,7 +95,7 @@ const FooterBar = () => {
                 </p>
                 <div className='flex flex-col gap-4'>
                   <a
-                    href='https://docs.newapi.pro/getting-started/'
+                    href='https://whalehub.cn'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='!text-semi-color-text-1'
@@ -103,7 +103,7 @@ const FooterBar = () => {
                     {t('快速开始')}
                   </a>
                   <a
-                    href='https://docs.newapi.pro/installation/'
+                    href='https://whalehub.cn'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='!text-semi-color-text-1'
@@ -111,7 +111,7 @@ const FooterBar = () => {
                     {t('安装指南')}
                   </a>
                   <a
-                    href='https://docs.newapi.pro/api/'
+                    href='https://whalehub.cn'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='!text-semi-color-text-1'
@@ -143,12 +143,12 @@ const FooterBar = () => {
                     Midjourney-Proxy
                   </a>
                   <a
-                    href='https://github.com/Calcium-Ion/neko-api-key-tool'
+                    href='https://github.com/QuantumNous/new-api'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='!text-semi-color-text-1'
                   >
-                    neko-api-key-tool
+                    New API
                   </a>
                 </div>
               </div>
@@ -159,20 +159,20 @@ const FooterBar = () => {
                 </p>
                 <div className='flex flex-col gap-4'>
                   <a
+                    href='https://github.com/chenny2023/whalehub'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='!text-semi-color-text-1'
+                  >
+                    WhaleHub GitHub
+                  </a>
+                  <a
                     href='https://github.com/Calcium-Ion/new-api-horizon'
                     target='_blank'
                     rel='noopener noreferrer'
                     className='!text-semi-color-text-1'
                   >
                     new-api-horizon
-                  </a>
-                  <a
-                    href='https://github.com/coaidev/coai'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='!text-semi-color-text-1'
-                  >
-                    CoAI
                   </a>
                   <a
                     href='https://www.gpt-load.com/'
@@ -197,7 +197,7 @@ const FooterBar = () => {
 
           <div className='text-sm'>
             <span className='!text-semi-color-text-1'>
-              {t('设计与开发由')}{' '}
+              Powered by{' '}
             </span>
             <a
               href='https://github.com/QuantumNous/new-api'
@@ -227,7 +227,7 @@ const FooterBar = () => {
             dangerouslySetInnerHTML={{ __html: footer }}
           ></div>
           <div className='absolute bottom-2 right-4 text-xs !text-semi-color-text-2 opacity-70'>
-            <span>{t('设计与开发由')} </span>
+            <span>Powered by </span>
             <a
               href='https://github.com/QuantumNous/new-api'
               target='_blank'
